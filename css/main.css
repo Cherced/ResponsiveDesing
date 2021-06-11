@@ -44,12 +44,12 @@ header {
     justify-content: flex-start;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: 295px;
     text-align: center;
     background: var(--linear--BG);
 }
 
-header img {
+header .batabitLogo {
     margin-top: 42px;
     width: 128.57px;
     height: 24px;
@@ -68,7 +68,7 @@ header img {
     margin: 36px 0px;  
     height: 78px;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
     font-size: 2.4rem;
     line-height: 2.6rem;
@@ -85,3 +85,478 @@ header img {
     text-align: center;
     color: var(--soft-orange);
 }
+
+.header-title-container .header-button {
+    width: 229px;
+    height: 48px;
+    position: absolute;
+    font-size: 1.4rem;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+    color: var(--warm-black);
+    text-decoration: wavy ;
+    top: 230px;
+    display: block;
+    margin-top: 32px;
+    margin-left: 25.5px;
+    padding: 16px 48px 15px 16px;
+    background-color: var(--off-white);  
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 4px;
+    text-align: left;
+}
+
+.header-title-container .arrow-down {
+    position: absolute;
+    width: 12px;
+    height: 7.41px;
+    top: 10.59px;
+    margin-left: 6px;
+}
+
+/* fin del header */
+
+/* iniciamos el main */
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+    
+}
+
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange-container .bitcoinBG .logo {
+   margin-top: 59px;
+   margin-left: 68px;
+}
+
+.main-exchange-container .main-exchange-container-title h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+
+.main-exchange-container .main-exchange-container-title p {
+    margin-top: 24px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(#757575);
+}
+
+.main-tables-container {
+    width: 197px;
+    min-width: 197px;
+    max-width: 500px;
+    height: 194px;
+    margin: 0 auto;
+    margin-top: 48px;
+    font-family: "inter";
+}
+
+.main-tables-container-title p {
+    color: #ff9536;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    background-color: #faf8f7;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-top: 0;
+}
+
+.main-tables-container .coins-info table {
+    width: 100%;
+    height: 100%;   
+}
+
+.main-tables-container .coins-info {
+    background-color: var(--just-white);
+    border-radius: 8px;
+    width: 90%;
+    min-width: 197px;   
+    max-width: 300px; 
+    height: auto;
+    margin: 0 auto;   
+}
+
+
+.main-tables-container .table-left {
+    color: #b5b0ac;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: -0.02em;
+    padding: 10px 12px;
+    width: 50%;
+}
+
+.main-tables-container .table-rigth {
+    color: #757575;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: -0.02em;
+    padding: 11px 12px 11px 12px;
+    text-align: center;
+    width: 50%;
+}
+
+.main-tables-container .next-icon {
+    width: 12px;
+    height: 7.41px;
+    position: absolute;
+    margin-left: 219.59px; 
+    top: 876px;   
+}
+
+.main-tables-container .table-rigth span img {
+    margin-left: 10.5px;
+}
+
+.main-tables-container .currency-table--date {
+    width: 173px;
+    height: 31px;
+    padding: 8px;    
+    background-color: var(--soft-orange);
+    color:var(--warm-blacki);
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.main-tables-container .currency-table--date  b {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+/* fin del primer seccion main */
+
+/* inicia segunda section del main */
+
+.main-product_info-container {
+    width: 100%;
+    min-width: 320px;
+    height: 893px;
+    background-color: var(--warm-black);
+    margin-top: 112px;
+    font-family: "DM Sans";
+    color: var(--just-white);
+}
+
+.main-product_info-container .batabit-flotLogo {
+    width: 41px;
+    height: 25px;
+    position: absolute;
+    top: 1061px;
+    left: 139px;
+}
+
+.main-product_info-container--title {
+    width: 288px;
+    height: 52px;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+.main-product_info-container--title h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;    
+}
+
+.main-product_info-container--title p {
+    color: #808080;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    padding-top: 24px;    
+}
+
+.main-product_info-container--aside {
+    width: 288px;
+    height: auto;
+    margin: 0 auto;  
+    position: relative;
+    margin-top: 126px;
+   
+}
+
+.main-product_info-container--aside #one, #two, #three, #four {
+    height: 152px;
+    padding: 16px 22px;
+    background-color: var(--warm-blacki);
+    margin-bottom: 12px;
+     border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.main-product_info-container--aside h1 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin: 10px 0;    
+}
+.main-product_info-container--aside p {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    width: 252px;
+    color: #808080;
+}
+
+/* finaliza el .main-product_info-container o segunda seccion del main */
+
+/* inicia la 3era section del main */
+
+.main-banner-container {
+    width: 100%;
+    min-width: 320px;   
+    background-color: var(--off-white); 
+}
+
+.main-banner-container h1 {
+    width: 288px;
+    position: absolute;
+    top: 2029px;
+    text-align: center;
+    left: 16px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main-banner-container img {
+    width: 100%;
+}
+
+/* finaliza la 3era section del main */
+
+/* inicia la 4 seccion del main */
+
+.main-membership-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 65px;
+    background-color: var(--just-white);
+}
+
+.main-membership-container--title {
+    width: 288px;
+    margin: 0 auto;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+
+.main-membership-container--title h1 {    
+    margin-top: 64px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+
+.main-membership-container--title p {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+.main-membership-container--box {
+    width: 190px;
+    height: 247px;
+    margin: 0 auto;
+    margin-top: 41.5px;
+    background-color: var(--just-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+    
+}
+
+.main-membership-container--box .title-box {
+    width: 101px;
+    height: 31px;
+    padding: 8px;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    border-radius: 8px;
+    position: absolute;
+    top: 2561px;
+    left: 110px;
+}
+.main-membership-container--box .title-box h6 {
+    width: 85px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.main-membership-container--box .box-container h1 {
+    padding-top: 31px;
+    margin: 0 auto;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.main-membership-container--box .box-container h2 span {
+    position: absolute;
+    top: 2612.5px;
+    left: 115px;
+}
+
+.main-membership-container--box .box-container h2 {
+    margin: 0 auto;
+    margin-top: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    letter-spacing: -0.08em;
+    text-align: center;
+}
+
+.main-membership-container--box .box-container p {
+    width: 158px;
+    color: #757575;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.main-membership-container--box .box-container button {
+    width: 151px;
+    height: 48px;
+    margin-top: 16px;
+    background-color: var(--off-white);
+    border-color: var(--bitcoin-orange);
+    color: var(--warm-black);
+    border: 2px solid #F7931A;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.main-membership-container--box .box-container button h3 {
+    width: 87px;
+    height: 18px;
+    margin-left: 16px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.main-membership-container--box .box-container button span {
+    position: relative;
+    left: 65px;
+    bottom: 20px;
+}
+/* finaliza la 4 seccion del main */
+/* inicia  el footer */
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);    
+}
+
+.footer-container {
+    display: inline-flex;
+    min-width: 320px;
+    margin: 0;
+}
+
+.footer-container .social {
+    width: 50%;
+    min-width: 160px;
+    height: auto;
+    margin-top: 40px;
+    padding: 8px;    
+}
+
+.footer-container .social h2 {
+    margin-left: 55px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--just-white);
+    
+}
+
+
+.footer-container .logofooter {
+    width: 50%;
+    min-width: 160px; 
+    padding-left: 45px;
+    padding-top: 55px;
+    align-items: center;      
+}
+
+footer #myStyle {
+    width: 160px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'wiegel lalein';
+    font-weight: 300;
+    background-color: var(--warm-black);
+    color: var(--just-white);
+    border-radius: 50px;
+    padding: 1px;
+    position: relative;
+    bottom: -18px;
+    border: 75px;
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 16%);
+    border-radius: 8px;
+}
+
+
