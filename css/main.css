@@ -24,6 +24,8 @@ para este proyecto las reglas van a estar en funcion de los siguientes lineamien
 
 *{
     box-sizing: border-box;
+    max-width: 320px;
+    height: auto;
     margin: 0;
     padding: 0;
 }
@@ -31,6 +33,7 @@ para este proyecto las reglas van a estar en funcion de los siguientes lineamien
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', 'Inter';
+    background-color: var(--just-white);
 }
 
 /* hasta aqui fueron los estilos generales del proyecto*/
